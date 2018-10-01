@@ -1,8 +1,7 @@
-.. image:: https://travis-ci.org/shuup/shuup_xtheme_extra_layouts.svg?branch=master
-    :target: https://travis-ci.org/shuup/shuup_xtheme_extra_layouts
-.. image:: https://codecov.io/gh/shuup/shuup_xtheme_extra_layouts/branch/master/graph/badge.svg
-  :target: https://codecov.io/gh/shuup/shuup_xtheme_extra_layouts
-
+.. image:: https://travis-ci.com/shuup/shuup-xtheme-extra-layouts.svg?branch=master
+    :target: https://travis-ci.com/shuup/shuup-xtheme-extra-layouts
+.. image:: https://codecov.io/gh/shuup/shuup-xtheme-extra-layouts/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/shuup/shuup-xtheme-extra-layouts
 
 Shuup Xtheme Extra Layouts
 ==========================
