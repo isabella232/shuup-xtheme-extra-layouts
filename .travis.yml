@@ -1,0 +1,16 @@
+sudo: false
+language: python
+cache: pip
+python:
+  - "3.6"
+install:
+  - pip install -U pip setuptools
+  - pip install codecov
+  - pip install shuup
+  - pip install -r requirements-test.txt
+script:
+  - flake8 shuup_xtheme_extra_layouts/
+  - isort --check-only
+  - py.test -ra -vvv --nomigrations shuup_xtheme_extra_layouts_tests --cov shuup_xtheme_extra_layouts
+after_success:
+  - codecov
