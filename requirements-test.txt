@@ -1,3 +1,4 @@
+beautifulsoup4==4.5.3
 pytest>=3.6
 pytest-cov
 pytest-django>=3.0.0
