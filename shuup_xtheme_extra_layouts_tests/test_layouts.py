@@ -15,9 +15,9 @@ from shuup.testing import factories
 from shuup.xtheme import set_current_theme
 from shuup.xtheme.layout.utils import get_layout_data_key
 from shuup.xtheme.view_config import ViewConfig
-from shuup_tests.simple_cms.utils import create_page
-from shuup_tests.utils import printable_gibberish, SmartClient
-from shuup_tests.xtheme.utils import get_request
+from .utils import create_page
+from .utils import printable_gibberish, SmartClient
+from .utils import get_request
 
 from shuup_xtheme_extra_layouts.layouts import (
     PageAnonymousLayout, PageRegisteredLayout
