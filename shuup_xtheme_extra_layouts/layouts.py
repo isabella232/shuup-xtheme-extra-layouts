@@ -6,7 +6,6 @@
 # This source code is licensed under the OSL-3.0 license found in the
 # LICENSE file in the root directory of this source tree.
 from django.utils.translation import ugettext_lazy as _
-
 from shuup.xtheme.layout import Layout
 from shuup.xtheme.layout.utils import get_customer_from_context
 
