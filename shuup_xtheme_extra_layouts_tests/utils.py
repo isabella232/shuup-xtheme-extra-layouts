@@ -9,12 +9,10 @@ import string
 import uuid
 
 from bs4 import BeautifulSoup
-from django.test import Client
-
 from django.contrib.auth.models import AnonymousUser
+from django.test import Client
 from django.test.client import RequestFactory
 from django.utils.crypto import get_random_string
-
 from shuup.simple_cms.models import Page
 from shuup.testing.factories import get_default_shop
 from shuup.testing.utils import apply_request_middleware

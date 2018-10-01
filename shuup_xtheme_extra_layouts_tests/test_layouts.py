@@ -10,18 +10,16 @@ import datetime
 import pytest
 from django.conf import settings
 from django.core.urlresolvers import reverse
-
 from shuup.testing import factories
 from shuup.xtheme import set_current_theme
 from shuup.xtheme.layout.utils import get_layout_data_key
 from shuup.xtheme.view_config import ViewConfig
-from .utils import create_page
-from .utils import printable_gibberish, SmartClient
-from .utils import get_request
 
 from shuup_xtheme_extra_layouts.layouts import (
     PageAnonymousLayout, PageRegisteredLayout
 )
+
+from .utils import create_page, get_request, printable_gibberish, SmartClient
 
 
 @pytest.mark.django_db
