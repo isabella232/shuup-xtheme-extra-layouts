@@ -34,7 +34,7 @@ the CLA.rst file distributed with Shuup.
 License
 -------
 
-Shuup YAML is published under Open Software License version 3.0 (OSL-3.0).
+Shuup Xtheme Extra Layouts is published under Open Software License version 3.0 (OSL-3.0).
 See the LICENSE file distributed with Shuup.
 
 Running tests
