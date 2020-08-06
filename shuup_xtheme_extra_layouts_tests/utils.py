@@ -20,7 +20,6 @@ from shuup.xtheme.editing import is_edit_mode, set_edit_mode
 
 from .faux_users import SuperUser
 
-
 CONTENT = """
 <h1>Bacon ipsum dolor amet doner ham brisket</h1>
 

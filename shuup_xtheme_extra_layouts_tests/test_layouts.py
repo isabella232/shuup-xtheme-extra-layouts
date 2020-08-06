@@ -9,7 +9,7 @@ import datetime
 
 import pytest
 from django.conf import settings
-from django.core.urlresolvers import reverse
+from django.urls import reverse
 from shuup.testing import factories
 from shuup.xtheme import set_current_theme
 from shuup.xtheme.layout.utils import get_layout_data_key
