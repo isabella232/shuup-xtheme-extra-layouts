@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Enter here all the changes made to the development version
 
+## [1.0.0] - 2020-08-06
+
 ### Added
 
 - Add support for Shuup 2 and drop support for older versions
